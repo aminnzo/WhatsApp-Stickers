@@ -1,6 +1,9 @@
-name: trendy_whatsapp_stickers
-description: Complete WhatsApp sticker App using Flutter.
+name: whatsapp_stickers
+description: WhatsApp sticker
+
 publish_to: 'none'
+
+version: 1.0.0+1
 
 environment:
   sdk: ">=2.7.0 <3.0.0"
@@ -8,9 +11,10 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  flutter_whatsapp_stickers:
+
+  flutter_whatsapp_stickers: ^1.0.0+4
   firebase_admob: ^0.5.5
-  url_launcher:
+  url_launcher: ^5.7.6
   esys_flutter_share: ^1.0.2
 
 dev_dependencies:
@@ -19,7 +23,7 @@ dev_dependencies:
   flutter_launcher_icons: "^0.7.3"
 
 flutter_icons:
-  android: "launcher_icon"
+  android: true
   ios: true
   image_path: "assets/images/logo.png"
 

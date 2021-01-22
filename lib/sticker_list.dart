@@ -2,8 +2,9 @@ import 'dart:convert';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_whatsapp_stickers/flutter_whatsapp_stickers.dart';
-import 'package:trendy_whatsapp_stickers/utils.dart';
-import 'package:trendy_whatsapp_stickers/sticker_pack_info.dart';
+
+import 'sticker_pack_info.dart';
+import 'utils.dart';
 
 class StaticContent extends StatefulWidget {
   @override

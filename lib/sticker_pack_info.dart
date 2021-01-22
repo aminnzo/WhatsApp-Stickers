@@ -1,7 +1,8 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_whatsapp_stickers/flutter_whatsapp_stickers.dart';
-import 'package:trendy_whatsapp_stickers/utils.dart';
+
+import 'utils.dart';
 
 class StickerPackInformation extends StatefulWidget {
   final List stickerPack;

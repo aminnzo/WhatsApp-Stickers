@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:trendy_whatsapp_stickers/Widgets/Admob.dart';
-import 'package:trendy_whatsapp_stickers/Widgets/Drawer.dart';
-import 'package:trendy_whatsapp_stickers/sticker_list.dart';
+
+import 'Widgets/Admob.dart';
+import 'Widgets/Drawer.dart';
+import 'sticker_list.dart';
 
 void main() => runApp(MyApp());
 
